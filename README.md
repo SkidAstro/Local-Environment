@@ -1,6 +1,9 @@
 # Local-Density
 
-This code uses a local density calculation based on the projected distance to the third nearest neighbor to organize galaxies into density environments
+This code calculates the local density for each galaxy based on:
+1) The projected distance to the third nearest neighbor
+2) The average of the densities of the ith to jth nearest neighbors
+
 
 Program Specifications: Python 2.7.9
 
